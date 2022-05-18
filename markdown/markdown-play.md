@@ -5,26 +5,38 @@
 ##### What is markdown? <h5>
 ###### What is markdown? <h6>
   
-  Esto es un h1
+  This is a h1
 =============
 
-Esto es un h2
+This is a h2
 -------------
   
- *Este texto está en itálicas.*
-**Este texto está en negritas.**
+ *This text is in italics.*
+**This text is in bold.**
 
-  ***Este texto tiene ambos estilos.***
-**_Al igual que este!_**
-*__¡Y este!__*
+  ***This text have both styles.***
+**_Like this!_**
+*__and this!__*
 
-  ~~Este texto está tachado.~~
+  ~~This text is strikethrough.~~
   
-Este es un párrafo. Estoy escribiendo un párrafo, ¿No es divertido?
+This is a paragraph. I'm typing in a paragraph isn't this fun?
 
-Ahora estoy en el párrafo dos.
-¡Sigo en el párrafo dos!
+Now I'm in paragraph 2.
+I'm still in paragraph 2 too!
 
-¡Estoy en el párrafo tres!
 
-  Termino con dos espacios (selecciona esta línea completa para que los veas).  
+I'm in paragraph three!
+
+  I end with two spaces (highlight me to see them).
+
+There's a <br /> above me!
+  
+  > This is a block quote. You can either
+> manually wrap your lines and put a `>` before every line or you can let your lines get really long and wrap on their own.
+> It doesn't make a difference so long as they start with a `>`.
+
+> You can also use more than one level
+>> of indentation?
+> How neat is that?
+  
