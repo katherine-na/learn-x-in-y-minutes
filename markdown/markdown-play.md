@@ -1,12 +1,16 @@
-# Esto es un <h1>
-## Esto es un <h2>
-### Esto es un <h3>
-#### Esto es un <h4>
-##### Esto es un <h5>
-###### Esto es un <h6>
+# What is markdown? <h1>
+## What is markdown? <h2>
+### What is markdown? <h3>
+#### What is markdown? <h4>
+##### What is markdown? <h5>
+###### What is markdown? <h6>
   
   Esto es un h1
 =============
 
 Esto es un h2
 -------------
+  
+ *Este texto está en itálicas.*
+**Este texto está en negritas.**
+
