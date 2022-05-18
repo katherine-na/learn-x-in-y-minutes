@@ -96,3 +96,11 @@ end
 ---
 - - -
 ****************
+  
+  [Click me!](http://test.com/)
+You can also add a link title using quotes inside the parentheses.
+
+[Click me!](http://test.com/ "Link to Test.com")
+Relative paths work too.
+
+[Go to music](/music/).
