@@ -70,3 +70,29 @@ or
     * Sub-item
     * Sub-item
 4. Item four
+
+  Boxes below without the 'x' are unchecked HTML checkboxes.
+- [ ] First task to complete.
+- [ ] Second task that needs done
+This checkbox below will be a checked HTML checkbox.
+- [x] This task has been completed
+  
+      This is code
+    So is this
+  
+      my_array.each do |item|
+        puts item
+    end
+
+  John didn't even know what the `go_to()` function did!
+  
+  ```ruby
+def foobar
+    puts "Hello world!"
+end
+```
+  
+  ***
+---
+- - -
+****************
