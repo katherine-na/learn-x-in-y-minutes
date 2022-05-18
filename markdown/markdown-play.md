@@ -104,3 +104,18 @@ You can also add a link title using quotes inside the parentheses.
 Relative paths work too.
 
 [Go to music](/music/).
+  
+  [Click this link][link1] for more info about it!
+[Also check out this link][foobar] if you want to.
+
+[link1]: http://test.com/ "Cool!"
+[foobar]: http://foobar.biz/ "Alright!"
+  
+  [This][] is a link.
+
+[this]: http://thisisalink.com/
+  
+  - [Heading](#heading)
+- [Another heading](#another-heading)
+- [Chapter](#chapter)
+  - [Subchapter <h3 />](#subchapter-h3-)
