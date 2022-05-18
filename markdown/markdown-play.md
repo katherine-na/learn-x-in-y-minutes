@@ -14,3 +14,6 @@ Esto es un h2
  *Este texto está en itálicas.*
 **Este texto está en negritas.**
 
+  ***Este texto tiene ambos estilos.***
+**_Al igual que este!_**
+*__¡Y este!__*
