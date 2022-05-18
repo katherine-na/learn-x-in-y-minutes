@@ -55,3 +55,18 @@ or
 - Item
 - Item
 - One last item
+  
+  1. Item one
+  2. Item two
+  3. Item three
+
+  1. Item one
+  1. Item two
+  1. Item three
+  
+1. Item one
+2. Item two
+3. Item three
+    * Sub-item
+    * Sub-item
+4. Item four
