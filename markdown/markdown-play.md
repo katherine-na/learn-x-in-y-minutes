@@ -40,3 +40,18 @@ There's a <br /> above me!
 >> of indentation?
 > How neat is that?
   
+  * Item
+* Item
+* Another item
+
+or
+
++ Item
++ Item
++ One more item
+
+or
+
+- Item
+- Item
+- One last item
