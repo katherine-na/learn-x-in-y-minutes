@@ -1,4 +1,4 @@
-# Learn X in Y Minutes.
+# Learn X in Y Minutes
 
 This README describes how to use different languages styles. It is guided by the website [Learn X in Y](https://learnxinyminutes.com/)
 
