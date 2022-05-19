@@ -18,21 +18,20 @@ This is a h2
 **_Like this!_**
 *__and this!__*
 
-  ~~This text is strikethrough.~~
+~~This text is strikethrough.~~
   
 This is a paragraph. I'm typing in a paragraph isn't this fun?
 
 Now I'm in paragraph 2.
 I'm still in paragraph 2 too!
 
-
 I'm in paragraph three!
 
-  I end with two spaces (highlight me to see them).
+I end with two spaces  (highlight me to see them).
 
 There's a <br /> above me!
   
-  > This is a block quote. You can either
+> This is a block quote. You can either
 > manually wrap your lines and put a `>` before every line or you can let your lines get really long and wrap on their own.
 > It doesn't make a difference so long as they start with a `>`.
 
@@ -40,7 +39,7 @@ There's a <br /> above me!
 >> of indentation?
 > How neat is that?
   
-  * Item
+* Item
 * Item
 * Another item
 
@@ -56,13 +55,13 @@ or
 - Item
 - One last item
   
-  1. Item one
-  2. Item two
-  3. Item three
+1. Item one
+2. Item two
+3. Item three
 
-  1. Item one
-  1. Item two
-  1. Item three
+1. Item one
+1. Item two
+1. Item three
   
 1. Item one
 2. Item two
@@ -70,32 +69,31 @@ or
     * Sub-item
     * Sub-item
 4. Item four
-
-  Boxes below without the 'x' are unchecked HTML checkboxes.
+  
+## Boxes 
+Boxes below without the 'x' are unchecked HTML checkboxes.
 - [ ] First task to complete.
 - [ ] Second task that needs done
 This checkbox below will be a checked HTML checkbox.
 - [x] This task has been completed
   
-      This is code
-    So is this
+This is code  
+So is this
   
-      my_array.each do |item|
-        puts item
-    end
+my_array.each do |item|
+puts item
+end
 
-  John didn't even know what the `go_to()` function did!
+John didn't even know what the `go_to()` function did!
   
-  ```ruby
+```python
 def foobar
     puts "Hello world!"
 end
 ```
   
-  ***
 ---
-- - -
-****************
+___
   
   [Click me!](http://test.com/)
 You can also add a link title using quotes inside the parentheses.
@@ -115,33 +113,33 @@ Relative paths work too.
 
 [this]: http://thisisalink.com/
   
-  - [Heading](#heading)
+- [Heading](#heading)
 - [Another heading](#another-heading)
 - [Chapter](#chapter)
-  - [Subchapter <h3 />](#subchapter-h3-)
+- [Subchapter <h3 />](#subchapter-h3-)
 
-  ![This is the alt-attribute for my image](http://imgur.com/myimage.jpg "An optional title")
+![This is the alt-attribute for my image](http://imgur.com/myimage.jpg "An optional title")
   
-  ![This is the alt-attribute.][myimage]
+![This is the alt-attribute.][myimage]
 
 [myimage]: relative/urls/cool/image.jpg "if you need a title, it's here"
   
-  <http://testwebsite.com/> is equivalent to
+<http://testwebsite.com/> is equivalent to
 [http://testwebsite.com/](http://testwebsite.com/)
   
-  <foo@bar.com>
+<foo@bar.com>
 
-    I want to type *this text surrounded by asterisks* but I don't want it to be
+I want to type *this text surrounded by asterisks* but I don't want it to be
 in italics, so I do this: \*this text surrounded by asterisks\*.
     
     Your computer crashed? Try sending a
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>
     
-    | Col1         | Col2     | Col3          |
+| Col1         | Col2     | Col3          |
 | :----------- | :------: | ------------: |
 | Left-aligned | Centered | Right-aligned |
 | blah         | blah     | blah          |
 
-    Col 1 | Col2 | Col3
+Col 1 | Col2 | Col3
 :-- | :-: | --:
 Ugh this is so ugly | make it | stop
