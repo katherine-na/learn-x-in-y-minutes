@@ -119,3 +119,29 @@ Relative paths work too.
 - [Another heading](#another-heading)
 - [Chapter](#chapter)
   - [Subchapter <h3 />](#subchapter-h3-)
+
+  ![This is the alt-attribute for my image](http://imgur.com/myimage.jpg "An optional title")
+  
+  ![This is the alt-attribute.][myimage]
+
+[myimage]: relative/urls/cool/image.jpg "if you need a title, it's here"
+  
+  <http://testwebsite.com/> is equivalent to
+[http://testwebsite.com/](http://testwebsite.com/)
+  
+  <foo@bar.com>
+
+    I want to type *this text surrounded by asterisks* but I don't want it to be
+in italics, so I do this: \*this text surrounded by asterisks\*.
+    
+    Your computer crashed? Try sending a
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>
+    
+    | Col1         | Col2     | Col3          |
+| :----------- | :------: | ------------: |
+| Left-aligned | Centered | Right-aligned |
+| blah         | blah     | blah          |
+
+    Col 1 | Col2 | Col3
+:-- | :-: | --:
+Ugh this is so ugly | make it | stop
