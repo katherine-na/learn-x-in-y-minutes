@@ -11,10 +11,10 @@
 This is a h2
 -------------
   
- *This text is in italics.*
+*This text is in italics.*
 **This text is in bold.**
 
-  ***This text have both styles.***
+***This text have both styles.***
 **_Like this!_**
 *__and this!__*
 
@@ -27,7 +27,8 @@ I'm still in paragraph 2 too!
 
 I'm in paragraph three!
 
-I end with two spaces  (highlight me to see them).
+I end with two spaces  
+(highlight me to see them).
 
 There's a <br /> above me!
   
@@ -77,16 +78,7 @@ Boxes below without the 'x' are unchecked HTML checkboxes.
 This checkbox below will be a checked HTML checkbox.
 - [x] This task has been completed
   
-This is code  
-So is this
-  
-my_array.each do |item|
-puts item
-end
-
-John didn't even know what the `go_to()` function did!
-  
-```python
+```javascript
 def foobar
     puts "Hello world!"
 end
@@ -103,7 +95,7 @@ Relative paths work too.
 
 [Go to music](/music/).
   
-  [Click this link][link1] for more info about it!
+[Click this link][link1] for more info about it!
 [Also check out this link][foobar] if you want to.
 
 [link1]: http://test.com/ "Cool!"
@@ -118,11 +110,10 @@ Relative paths work too.
 - [Chapter](#chapter)
 - [Subchapter <h3 />](#subchapter-h3-)
 
-![This is the alt-attribute for my image](http://imgur.com/myimage.jpg "An optional title")
+## Images
+![This is the markdown logo](https://geekytheory.com/content/images/size/w2000/2014/03/markdown.png)
   
-![This is the alt-attribute.][myimage]
-
-[myimage]: relative/urls/cool/image.jpg "if you need a title, it's here"
+![This is the github logo](https://cdn3.iconfinder.com/data/icons/inficons/512/github.png)
   
 <http://testwebsite.com/> is equivalent to
 [http://testwebsite.com/](http://testwebsite.com/)
@@ -143,3 +134,6 @@ in italics, so I do this: \*this text surrounded by asterisks\*.
 Col 1 | Col2 | Col3
 :-- | :-: | --:
 Ugh this is so ugly | make it | stop
+
+## Emojis
+:rabbit:
