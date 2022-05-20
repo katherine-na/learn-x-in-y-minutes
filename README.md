@@ -7,12 +7,11 @@ This README describes how to use different languages styles. It is guided by the
 ![Imag](learn_x_in_y.png "example")
 
 ## About This Project
-Son proyectos que he ido utilizando a medida que voy aprendiendo.
-
+They are projects that I have been using as I learn.
 ___
 
 ## Languages
-Estos son los idiomas que estare aprendiendo.
+These are the languages I will be learning.
 
 - [x] Markdown  
 - [ ] JavaScript
