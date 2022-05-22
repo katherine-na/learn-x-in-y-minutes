@@ -17,4 +17,4 @@ These are the languages I will be learning.
 - [ ] JavaScript
 - [ ] HTML
 - [ ] CSS
-- [ ] Linux
+- [ ] Bash 
