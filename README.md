@@ -16,5 +16,4 @@ These are the languages I will be learning.
 - [x] Markdown  
 - [ ] JavaScript
 - [ ] HTML
-- [ ] CSS
-- [ ] Bash 
+- [ ] CSS 
