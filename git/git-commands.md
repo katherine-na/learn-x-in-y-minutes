@@ -51,9 +51,9 @@ _Ejemplo_
     Describiendo para qué sirve cada elemento y comando en git.
 ```
 
-## Comandos de git
+## Comandos de `git`
 
-### git clone
+### `git clone`
 
 Clona un repositorio ya existente.
 
@@ -71,7 +71,7 @@ git-play              introduction-to-linux learn-x-in-y-minutes
 
 ```
 
-### git branch
+### `git branch`
 
 Son ramas donde se desarrolla el proyecto.  
 Puede visualizar las ramas existentes, por ejemplo.
@@ -99,7 +99,7 @@ learn-x-in-y-minutes [main]  git branch --delete kna-update
 Deleted branch kna-update (was d119bbd).
 ```
 
-### git pull
+### `git pull`
 
 Actualiza la versión local de un repositorio desde otro remoto.
 
@@ -118,7 +118,7 @@ Fast-forward
  1 file changed, 72 insertions(+)
 ```
 
-### git push
+### `git push`
 
 Carga el contenido del repositorio local a un repositorio remoto.
 
@@ -135,7 +135,7 @@ To github.com:katherine-na/learn-x-in-y-minutes.git
    c241d41..effcc19  kna-git-notes -> kna-git-notes
 ```
 
-### git status
+### `git status`
 
 Muestra el estado actual del repositorio.
 
@@ -148,7 +148,7 @@ nothing to commit, working tree clean
 
 ```
 
-### git log
+### `git log`
 
 Es el historial de commits de un repositorio.
 
@@ -181,7 +181,7 @@ Date:   Sat Jun 11 12:26:25 2022 -0500
 
 ```
 
-### git add
+### `git add`
 
 Agrega archivos o agrega un commit.
 
@@ -195,7 +195,7 @@ Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 ```
 
-### git checkout
+### `git checkout`
 
 Cambia de rama.
 
@@ -206,7 +206,7 @@ learn-x-in-y-minutes [main] git checkout kna-git-notes
 learn-x-in-y-minutes [kna-git-notes]
 ```
 
-### git commit
+### `git commit`
 
 Compromete los cambios y se debe agregar un mensaje como estos cambios.
 
