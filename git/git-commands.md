@@ -6,27 +6,27 @@ Git es un sistema de control de versiones, resgistra todo el historial de cambio
 
 Es todo proyecto que esta siendo seguido por git. Tiene un historial de git en el que estan registrados sus cambios.
 
-### Repositorio local
+### Repositorio Local
 
-Este repositorio esta por defecto en el ordenador (terminal)
+Este repositorio esta por defecto en el ordenador.
 
-### Repositorio remoto (nube)
+### Repositorio Remoto
 
 Son versiones de un proyecto que estan hospedadas en Internet o en una red social (github.com, gitlab.com, etc)
 
-![](https://pythonforundergradengineers.com/posts/git/images/git_and_github_logo.png)
+![](https://i.morioh.com/210405/3c59afec.webp)
 
 ## Branch
 
 Hace posible desarrollar nuevas funciones de un proyecto sin obstaculizar el desarrollo de la rama principal.
 
-### Branch Main.
+### Branch Main
 
-Es la rama principal (master)
+Es la rama principal, se puede llamar también Master.
 
-### Branch secundary.
+### Branch Secundary
 
-Es una rama de desarrollo donde se crean cambios para despues ser evaluados y agregados a la rama principal _Main_
+Es una rama de desarrollo donde se crean cambios, si se desea se mandan a ser evaluados para despues poder ser agregados a la rama principal _Main_
 
 ![](https://i.stack.imgur.com/83JeN.png)
 
@@ -34,10 +34,11 @@ Es una rama de desarrollo donde se crean cambios para despues ser evaluados y ag
 
 Es cada uno de los cambios registrados en el historial de git.
 
-_Mensaje en un Commit_
+Existen diversas maneras de hacer un commit. Un ejemplo de ellas seria:
 
 ```sh
     type (theme) : ¿qué se esta cambiando y para qué?
+
     1 - 2 parrafos.
 ```
 
@@ -72,12 +73,30 @@ git-play              introduction-to-linux learn-x-in-y-minutes
 
 ### git branch
 
-Crea y elimina ramas donde se desarrolla el proyecto.
+Son ramas donde se desarrolla el proyecto.  
+Puede visualizar las ramas existentes, por ejemplo.
+
+```sh
+learn-x-in-y-minutes [main] git branch
+kna-git-notes
+kna-update
+[main]
+(END)
+```
+
+Puede crear una rama, por ejemplo:
 
 ```sh
 learn-x-in-y-minutes [main] git branch kna-linux-notes
 learn-x-in-y-minutes [main] git checkout kna-linux-notes
 Switched to branch 'kna-linux-notes'
+```
+
+Puede eliminar una rama, por ejemplo.
+
+```
+learn-x-in-y-minutes [main]  git branch --delete kna-update
+Deleted branch kna-update (was d119bbd).
 ```
 
 ### git pull
