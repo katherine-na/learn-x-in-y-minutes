@@ -8,7 +8,7 @@ Es todo proyecto que esta siendo seguido por git. Tiene un historial de git en e
 
 ### Repositorio local
 
-Este repositorio esta por defecto en el ordenador.
+Este repositorio esta por defecto en el ordenador (terminal)
 
 ### Repositorio remoto (nube)
 
@@ -24,7 +24,7 @@ Hace posible desarrollar nuevas funciones de un proyecto sin obstaculizar el des
 
 Es la rama principal (master)
 
-### Branch
+### Branch secundary.
 
 Es una rama de desarrollo donde se crean cambios para despues ser evaluados y agregados a la rama principal _Main_
 
@@ -34,16 +34,16 @@ Es una rama de desarrollo donde se crean cambios para despues ser evaluados y ag
 
 Es cada uno de los cambios registrados en el historial de git.
 
-### Mensaje en un Commit
+_Mensaje en un Commit_
 
-```
+```sh
     type (theme) : ¿qué se esta cambiando y para qué?
     1 - 2 parrafos.
 ```
 
 _Ejemplo_
 
-```
+```sh
     docs(git): creando un documento sobre git y sus comandos
 
     Añadiendo información sobre qué es git.
@@ -56,7 +56,7 @@ _Ejemplo_
 
 Clona un repositorio ya existente.
 
-```
+```sh
 github.com  git clone git@github.com:katherine-na/learn-x-in-y-minutes.git
 Cloning into 'learn-x-in-y-minutes'...
 remote: Enumerating objects: 88, done.
@@ -74,7 +74,7 @@ git-play              introduction-to-linux learn-x-in-y-minutes
 
 Crea y elimina ramas donde se desarrolla el proyecto.
 
-```
+```sh
 learn-x-in-y-minutes [main] git branch kna-linux-notes
 learn-x-in-y-minutes [main] git checkout kna-linux-notes
 Switched to branch 'kna-linux-notes'
@@ -84,7 +84,7 @@ Switched to branch 'kna-linux-notes'
 
 Actualiza la versión local de un repositorio desde otro remoto.
 
-```
+```sh
 learn-x-in-y-minutes [main] git pull
 remote: Enumerating objects: 2, done.
 remote: Counting objects: 100% (2/2), done.
@@ -103,7 +103,7 @@ Fast-forward
 
 Carga el contenido del repositorio local a un repositorio remoto.
 
-```
+```sh
 learn-x-in-y-minutes [kna-git-notes] git push
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
@@ -133,7 +133,7 @@ nothing to commit, working tree clean
 
 Es el historial de commits de un repositorio.
 
-```
+```sh
 commit effcc19fa4e0f65c79bb282ebf9a046e9cb59b4b (HEAD -> kna-git-notes, origin/kna-git-notes)
 Author: Katherine Negrete <katherine.negrete.aguilar@gmail.com>
 Date:   Sat Jun 11 13:32:46 2022 -0500
@@ -180,7 +180,7 @@ Changes to be committed:
 
 Cambia de rama.
 
-```
+```sh
 learn-x-in-y-minutes [kna-git-notes] git checkout main
 learn-x-in-y-minutes [main]
 learn-x-in-y-minutes [main] git checkout kna-git-notes
@@ -191,7 +191,7 @@ learn-x-in-y-minutes [kna-git-notes]
 
 Compromete los cambios y se debe agregar un mensaje como estos cambios.
 
-```
+```sh
 learn-x-in-y-minutes [kna-git-notes] ⚡  git commit
 [kna-git-notes c241d41] docs(git): add more information about git
  1 file changed, 22 insertions(+)
