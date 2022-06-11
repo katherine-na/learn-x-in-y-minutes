@@ -14,6 +14,8 @@ Este repositorio esta por defecto en el ordenador.
 
 Son versiones de un proyecto que estan hospedadas en Internet o en una red social (github.com, gitlab.com, etc)
 
+![](https://pythonforundergradengineers.com/posts/git/images/git_and_github_logo.png)
+
 ## Branch
 
 Hace posible desarrollar nuevas funciones de un proyecto sin obstaculizar el desarrollo de la rama principal.
@@ -50,6 +52,70 @@ _Ejemplo_
 
 ## Comandos de git
 
+### git clone
+
+Clona un repositorio ya existente.
+
+```
+github.com  git clone git@github.com:katherine-na/learn-x-in-y-minutes.git
+Cloning into 'learn-x-in-y-minutes'...
+remote: Enumerating objects: 88, done.
+remote: Counting objects: 100% (88/88), done.
+remote: Compressing objects: 100% (86/86), done.
+remote: Total 88 (delta 17), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (88/88), 293.70 KiB | 1.72 MiB/s, done.
+Resolving deltas: 100% (17/17), done.
+github.com  ls
+git-play              introduction-to-linux learn-x-in-y-minutes
+
+```
+
+### git branch
+
+Crea y elimina ramas donde se desarrolla el proyecto.
+
+```
+learn-x-in-y-minutes [main] git branch kna-linux-notes
+learn-x-in-y-minutes [main] git checkout kna-linux-notes
+Switched to branch 'kna-linux-notes'
+```
+
+### git pull
+
+Actualiza la versión local de un repositorio desde otro remoto.
+
+```
+learn-x-in-y-minutes [main] git pull
+remote: Enumerating objects: 2, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From github.com:katherine-na/learn-x-in-y-minutes
+   919e96b..0b059f9  main       -> origin/main
+Updating 919e96b..0b059f9
+Fast-forward
+ git/git-commands.md | 72 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 72 insertions(+)
+```
+
+### git push
+
+Carga el contenido del repositorio local a un repositorio remoto.
+
+```
+learn-x-in-y-minutes [kna-git-notes] git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 860 bytes | 860.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:katherine-na/learn-x-in-y-minutes.git
+   c241d41..effcc19  kna-git-notes -> kna-git-notes
+```
+
 ### git status
 
 Muestra el estado actual del repositorio.
@@ -60,6 +126,39 @@ On branch kna-git-notes
 Your branch is up to date with 'origin/kna-git-notes'.
 
 nothing to commit, working tree clean
+
+```
+
+### git log
+
+Es el historial de commits de un repositorio.
+
+```
+commit effcc19fa4e0f65c79bb282ebf9a046e9cb59b4b (HEAD -> kna-git-notes, origin/kna-git-notes)
+Author: Katherine Negrete <katherine.negrete.aguilar@gmail.com>
+Date:   Sat Jun 11 13:32:46 2022 -0500
+
+    docs(git): added more information
+
+    Add git commands and write information with examples.
+
+commit c241d4105f87f6e59f35a2012dbed5adb1f1c874
+Author: Katherine Negrete <katherine.negrete.aguilar@gmail.com>
+Date:   Sat Jun 11 13:04:03 2022 -0500
+
+    docs(git): add more information about git
+
+    I wrote more information about the structure of git.
+    I added an image to give an example.
+
+commit 5653b9d5ff35eeed9f68ce264eb6167d5b107f79
+Author: Katherine Negrete <katherine.negrete.aguilar@gmail.com>
+Date:   Sat Jun 11 12:26:25 2022 -0500
+
+    docs(git): creating a document about git
+
+    Defining what git is and what it is for.
+    Adding examples on how to write a commit.
 
 ```
 
